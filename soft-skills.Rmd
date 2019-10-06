@@ -1,30 +1,89 @@
 ---
 title: "Data Science Soft Skills"
 author: "Matthew Emery"
-date: "06/10/2019"
-output: html_document
+date: "106/10/2019"
+output: revealjs::revealjs_presentation
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+<!-- TODO: Check reveal works -->
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Why are you here?
 
-```{r cars}
-summary(cars)
-```
+ - You were hired because you have skills that your employer does not have
+ 
 
-## Including Plots
+<aside class="notes">
+ - Don't assume that anyone else knows what you are talking about
+ - Others may not understand your value until you show it
+</notes>
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## Data science and data engineering
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+ - You will likely see both types of projects in your career
+ - **Data science:** You are attempting to predict or explain something
+ - **Data engineering:** You are supporting a data science project by making data or results more accessible to others
+
+
+## Data engineering projects
+
+ - Usually instrastructure projects
+ - These projects are more complicated than you expect with a lot of buy-in
+ 
+
+## Common Data Engineering Pitfalls
+
+ - Don't overengineer: The people who use your work don't care about the tech stack
+
+
+## Data science projects
+
+ - There is no guarentee that what you are trying will work
+
+
+## Common Data Science Pitfalls
+
+ - You don't have the data to answer the question
+ - You spent too much time polishing a model of little value
+ - Bugs in data science projects are hard to find and squash
+
+
+## Planning
+ - Assume that something will go wrong
+ - Be clear of your project's trade-offs 
+
+ 
+## Personal Productivity
+
+ - I use the Pomodoro technique
+ - Spend 25 minutes do a single thing without looking at your phone
+ - Rest for 5 minutes
+
+
+## Setting Expectations
+
+ - Planning software is extremely difficult
+ - Planning machine learning is even harder
+
+## Minimize Meetings
+
+ - Talk to your manager
+ - Demand an agenda before accepting a meeting
+ - Block off parts of your calendar for work
+
+
+## Leave Time to Learn
+
+ - I take at least an hour a day to learn something new
+ - You are investing in your future
+
+## Suggested Reading
+
+ - The Personal MBA by Josh Kaufman
+ - Soft Skill by John Sonmez
+ - The Manager's Path by Camille Fournier
