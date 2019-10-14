@@ -1,8 +1,13 @@
 ---
 title: "Data Science Soft Skills"
 author: "Matthew Emery"
-date: "106/10/2019"
-output: revealjs::revealjs_presentation
+date: "10/14/2019"
+output: 
+  revealjs::revealjs_presentation:
+    self_contained: false
+    theme: "night"
+    highlight: "zenburn"
+    reveal_plugins: ["notes"]
 ---
 
 ```{r setup, include=FALSE}
@@ -10,67 +15,80 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<!-- Wherever I say you, I mean me -->
-
 ## Why did your employer hire you?
 
- - They hired you because they have problems that they think you can solve
- - When you get hired you realize that the biggest problems are the ones they couldn't even recognize!
-
+![https://www.simplilearn.com/ice9/free_resources_article_thumb/What-Skills-Do-I-Need-to-Become-a-Data-Scientist.jpg](./img/just-awful.jpg)
+Not because of this
 
 <aside class="notes">
- - Don't assume that anyone else knows what you are talking about
- - Others may not understand your value until you show it
+ - They hired you because they have problems that they think you can solve
+ - When you get hired you realize that the biggest problems are the ones they couldn't even recognize!
 </aside>
 
 ## How do get better at solving problems?
 
- - Practice!
- - Effort * Time = Productivity
+   $$Effort * Time = Productivity$$
 
-<aside class ="note">
- - This is the only LaTeX in this presentation 
-</aside>
-
-<!-- Cite Deep Work Here -->
+<aside class ="notes">
+ - This is the only LaTeX in this presentation
+ - This comes from Deep Work
  - Think about how long you were able to work on a project without losing focus
  - Your goal should be maximize that amount of time
+</aside>
+
 
 ## Optimizing for Time
 
+![https://www.paintinghere.com/UploadPic/Salvador%20Dali/big/clock%20melting%20clocks.jpg](./img/dali-clocks.jpg)
+
+ 1. Track
+ 2. Remove
+ 3. Automate
+
+<aside class = "notes">
  - First, start tracking your time (I use 30 minute increments)
  - Remove everything from your phone that distracts you (even your work Slack)
  - Automate whatever you can
- 
+</aside> 
+
 ## The Pomodoro Method
 
- - I use the Pomodoro technique
- - Spend 25 minutes do a single thing without breaking your concentration
- - Rest for 5 minutes
-
-
-<!-- Talk about the amount of Pomodoro
+ 1. Work on one thing for 25 minutes.
+ 2. Rest for 5 minutes.
+ 3. Repeat 4 times.
+ 4. Take a longer break.
 
 ## What should I automate?
 
+![](./img/xkcd.png)
+
+
+<aside class = "notes">
  - Think about the tasks you do when you had a bad night's rest (low effort)
  - Bonus points if it's something that a lot of your co-workers complain about
-
-<!-- Add that silly chart here -->
+</aside>
 
 ## What about meetings?
 
+![https://hbr.org/resources/images/article_assets/2015/03/W150317_SAUNDERS_SHOULDHOLDMEETING.png](./img/hold-a-meeting.png)
+
+<aside class = "notes">
  - If you are invited to a meeting, ask for an agenda. Come prepared and arrive on time.
  - Try to minimize the number of people in meetings to just stakeholders
  - If someone is checking their emails for most of the meeting, then the meeting should have been an email
+</aside>
+
 
 ## Optimizing for Effort
 
+ 1. Sleep
+ 2. Diet
+ 3. Exercise
+
+<aside class="note">
  - If you aren't sleeping, eating well or exercising regularly, you won't have much energy
  - Trying to push yourself without taking of your yourself
  - Know when to stop for the day without feeling guilty about it (For me it's 5 hours of deep work or 6pm)
-
-<aside class="note">
  - I used to be very bad at this in university
 </aside>
 
@@ -82,10 +100,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Planning
 
+![https://blogassets.plan.io/planning-fallacy.png](./img/planning-fallacy.png)
+
+
+<aside class="note">
  - Humans are very bad it this
  - Hope you've been tracking your time!
  - My rule of thumb: break a project into small tasks (should take 2 to 4 hours to complete) then double your gut feeling on tasks you haven't tracked before
-
+</aside>
 
 ## Common Data Science Project Pitfalls
 
@@ -93,10 +115,6 @@ knitr::opts_chunk$set(echo = TRUE)
  - You spent too much time polishing a model of little value
  - Bugs in data science projects are hard to find and squash
 
-## Setting Expectations
-
- - Planning software is extremely difficult
- - Planning machine learning is even harder
 
 ## Leave Time to Learn
 
@@ -108,6 +126,5 @@ knitr::opts_chunk$set(echo = TRUE)
  - The Personal MBA by Josh Kaufman
  - Soft Skill by John Sonmez
  - The Manager's Path by Camille Fournier
-
 
 ## Thesis 
