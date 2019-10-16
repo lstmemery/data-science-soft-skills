@@ -1,5 +1,5 @@
 ---
-title: "Data Science Soft Skills"
+title: "Data Science Productivity Skills"
 author: "Matthew Emery"
 date: "10/14/2019"
 output: 
@@ -17,8 +17,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Why did your employer hire you?
 
-![https://www.simplilearn.com/ice9/free_resources_article_thumb/What-Skills-Do-I-Need-to-Become-a-Data-Scientist.jpg](./img/just-awful.jpg)
-Not because of this
 
 <aside class="notes">
  - They hired you because they have problems that they think you can solve
@@ -29,6 +27,8 @@ Not because of this
 
    $$Effort * Time = Productivity$$
 
+(Cal Newport)
+
 <aside class ="notes">
  - This is the only LaTeX in this presentation
  - This comes from Deep Work
@@ -36,14 +36,25 @@ Not because of this
  - Your goal should be maximize that amount of time
 </aside>
 
+## Optimizing for Effort
+
+ 1. Sleep
+ 2. Diet
+ 3. Exercise
+
+<aside class="notes">
+ - If you aren't sleeping, eating well or exercising regularly, you won't have much energy
+ - Trying to push yourself without taking of your yourself
+ - Know when to stop for the day without feeling guilty about it (For me it's 5 hours of deep work or 6pm)
+ - I used to be very bad at this in university
+</aside>
+
 
 ## Optimizing for Time
 
-![https://www.paintinghere.com/UploadPic/Salvador%20Dali/big/clock%20melting%20clocks.jpg](./img/dali-clocks.jpg)
-
- 1. Track
- 2. Remove
- 3. Automate
+ 1. Track (time)
+ 2. Remove (distractions)
+ 3. Automate (the boring stuff)
 
 <aside class = "notes">
  - First, start tracking your time (I use 30 minute increments)
@@ -57,6 +68,11 @@ Not because of this
  2. Rest for 5 minutes.
  3. Repeat 4 times.
  4. Take a longer break.
+
+## Distractions
+
+![](./img/noti_devil.gif)
+
 
 ## What should I automate?
 
@@ -78,26 +94,6 @@ Not because of this
  - If someone is checking their emails for most of the meeting, then the meeting should have been an email
 </aside>
 
-
-## Optimizing for Effort
-
- 1. Sleep
- 2. Diet
- 3. Exercise
-
-<aside class="note">
- - If you aren't sleeping, eating well or exercising regularly, you won't have much energy
- - Trying to push yourself without taking of your yourself
- - Know when to stop for the day without feeling guilty about it (For me it's 5 hours of deep work or 6pm)
- - I used to be very bad at this in university
-</aside>
-
-## Am I putting my effort into the right project?
-
-   1. Is there some off-the-shelf product that would cost less than developing something in house?
-   2. How will I know if a project isn't working?
-   3. What are the maintainance costs after I finish this project?
-
 ## Planning
 
 ![https://blogassets.plan.io/planning-fallacy.png](./img/planning-fallacy.png)
@@ -111,20 +107,13 @@ Not because of this
 
 ## Common Data Science Project Pitfalls
 
- - You don't have the data to answer the question
- - You spent too much time polishing a model of little value
- - Bugs in data science projects are hard to find and squash
-
-
-## Leave Time to Learn
-
- - I take at least an hour a day to learn something new
- - You are investing in your future
+ - No data
+ - Model polishing
+ - Untested code in production
 
 ## Suggested Reading
 
  - The Personal MBA by Josh Kaufman
- - Soft Skill by John Sonmez
+ - Soft Skills by John Sonmez
  - The Manager's Path by Camille Fournier
-
-## Thesis 
+ - Deep Work by Cal Newport
